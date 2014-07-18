@@ -221,7 +221,13 @@ class Log implements LoggerInterface
         {
             $linePrefix = $this->getLinePrefix($level);
             $message    = strval($message);
-            $strContext = json_encode($context);
+            $strContext = '';
+
+            if($context != null && count($context) > 0)
+            {
+                $strContext = json_encode($context);
+            }
+
             $this->writeLine($linePrefix . $message . ' ' . $strContext . "\n");
         }
     }
