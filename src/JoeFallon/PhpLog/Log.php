@@ -1,5 +1,5 @@
 <?php
-namespace JoeFallon\Log;
+namespace JoeFallon\PhpLog;
 
 use Exception;
 use Psr\Log\LoggerInterface;
@@ -8,7 +8,6 @@ use Psr\Log\LoggerInterface;
  * @author    Joseph Fallon <joseph.t.fallon@gmail.com>
  * @copyright Copyright 2014 Joseph Fallon (All rights reserved)
  * @license   MIT
- * @package   JoeFallon\Log
  */
 class Log implements LoggerInterface
 {

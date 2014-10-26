@@ -1,8 +1,8 @@
 <?php
-namespace tests\JoeFallon\Log;
+namespace tests\JoeFallon\PhpLog;
 
 use JoeFallon\KissTest\UnitTest;
-use JoeFallon\Log\Log;
+use JoeFallon\PhpLog\Log;
 
 class LogTests extends UnitTest
 {
