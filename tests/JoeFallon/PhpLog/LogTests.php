@@ -60,7 +60,7 @@ class LogTests extends UnitTest
     public function test_emergency_level()
     {
         $logger = new Log($this->_logPath, Log::DEBUG);
-        $logger->emergency('Test emergency.');
+        $logger->emergency('Test emergency.', array('contextKey' => 'contextVal'));
     }
 
     public function test_off_level()
