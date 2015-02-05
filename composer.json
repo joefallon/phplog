@@ -2,7 +2,7 @@
     "name": "joefallon/phplog",
     "type": "library",
     "description": "This package contains simple to use logger",
-    "keywords": [ "PHP", "dbal", "database" ],
+    "keywords": [ "logger", "log" ],
     "homepage": "https://github.com/joefallon/phplog",
     "license": "MIT",
     "authors": [
