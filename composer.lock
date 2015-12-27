@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f11865d1e6da3202ee760161ac14f85a",
+    "hash": "092af8bc5552a70c81ea27fe63c55a99",
+    "content-hash": "b0ca05630be431df55f7749770d288fb",
     "packages": [
         {
             "name": "psr/log",
@@ -12,13 +13,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "1af1529b49a6e065ae6802e70192aba35d79b7d8"
+                "reference": "9e45edca52cc9c954680072c93e621f8b71fab26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/1af1529b49a6e065ae6802e70192aba35d79b7d8",
-                "reference": "1af1529b49a6e065ae6802e70192aba35d79b7d8",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/9e45edca52cc9c954680072c93e621f8b71fab26",
+                "reference": "9e45edca52cc9c954680072c93e621f8b71fab26",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -27,8 +31,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -47,29 +51,29 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2015-02-05 09:32:11"
+            "time": "2015-06-02 13:48:41"
         }
     ],
     "packages-dev": [
         {
             "name": "joefallon/kisstest",
-            "version": "v1.2.3",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joefallon/kisstest.git",
-                "reference": "8d34cb759cff19032fd95d878e5173ec016fc93a"
+                "reference": "ef60257e1965129b56bdd57bd0d05f6a4afe67ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joefallon/kisstest/zipball/8d34cb759cff19032fd95d878e5173ec016fc93a",
-                "reference": "8d34cb759cff19032fd95d878e5173ec016fc93a",
+                "url": "https://api.github.com/repos/joefallon/kisstest/zipball/ef60257e1965129b56bdd57bd0d05f6a4afe67ac",
+                "reference": "ef60257e1965129b56bdd57bd0d05f6a4afe67ac",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
             },
             "require-dev": {
-                "joefallon/phpautoloader": "~2.0"
+                "joefallon/phpautoloader": "^2.0.0"
             },
             "type": "library",
             "autoload": {
@@ -88,27 +92,27 @@
                     "homepage": "http://blog.joefallon.net"
                 }
             ],
-            "description": "KissTest is a gorgeous and fast unit testing framework for PHP that does not require use of the command line.",
+            "description": "KissTest is command-line free, fast, simple and beautiful unit test framework.",
             "homepage": "https://github.com/joefallon/kisstest",
             "keywords": [
                 "test",
                 "unit-test",
                 "xunit"
             ],
-            "time": "2015-01-26 20:40:15"
+            "time": "2015-12-27 17:27:07"
         },
         {
             "name": "joefallon/phpautoloader",
-            "version": "v2.0.2",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joefallon/phpautoloader.git",
-                "reference": "79284475b671923f91f1af9286204b3821b08298"
+                "reference": "940cc57d3219d210e0135355bf329d39a26f30fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joefallon/phpautoloader/zipball/79284475b671923f91f1af9286204b3821b08298",
-                "reference": "79284475b671923f91f1af9286204b3821b08298",
+                "url": "https://api.github.com/repos/joefallon/phpautoloader/zipball/940cc57d3219d210e0135355bf329d39a26f30fd",
+                "reference": "940cc57d3219d210e0135355bf329d39a26f30fd",
                 "shasum": ""
             },
             "type": "library",
@@ -137,7 +141,7 @@
                 "namespace",
                 "psr-0"
             ],
-            "time": "2014-12-28 15:32:10"
+            "time": "2015-12-27 17:23:01"
         }
     ],
     "aliases": [],
